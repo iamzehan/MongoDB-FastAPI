@@ -1,3 +1,6 @@
+<center> <h1> FastAPI <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/fastapi-icon.svg" alt="html5" width="40" height="40"/> + MongoDB <img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/mongodb-icon.svg" alt="html5" width="40" height="40"/></h1>
+</center>
+
 ## Here's the directory structure
 ___
 
@@ -14,11 +17,11 @@ ___
 
 ### `main.py`
 ___
-Responsible for running the app
+Responsible for running the app on server
 
 ### `server/`
 ___
-Contains database schema and API routes
+Contains database schema and API routes.
 
 ### `models/`
 ___
@@ -27,7 +30,7 @@ Contains files that define the structure of your database documents.
 
 ### `routes/`
 ___
-Basically handles all the requests
+Handles all the requests and response
 * GET
 * POST
 * PUT
@@ -36,8 +39,9 @@ Basically handles all the requests
 
 ### `app.py`
 ___
-defines the urls (should've named it urls.py)
+Registers and handles urls and runs the FastAPI instance.
 
 ### `database.py`
 ___
 Handles the connection with the database and as well as all the interactions between MongoDB server and the FastAPI server.
+
